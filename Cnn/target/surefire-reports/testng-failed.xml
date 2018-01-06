@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Cnn Automation Test]">
+  <parameter name="url" value="http://www.cnn.com/"/>
+  <test verbose="0" name="Cnn Home(failed)">
+    <classes>
+      <class name="home.TestHome">
+        <methods>
+          <include name="test1"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- home.TestHome -->
+    </classes>
+  </test> <!-- Cnn Home(failed) -->
+</suite> <!-- Failed suite [Cnn Automation Test] -->
